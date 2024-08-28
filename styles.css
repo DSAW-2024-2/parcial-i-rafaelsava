@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2f8;
+    font-family: 'Manrope', sans-serif;
+    flex-direction: column;
+}
+
+.container {
+    width: 50%;
+    max-width: 780px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.content {
+    width: 60%;
+    padding: 1.2rem;
+}
+
+.content p {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 0.5rem;
+    
+}
+
+#button-share {
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/icon-share.svg');
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    
+}
+
+.share {
+    display: flex;
+    width: 30%;
+    background-color: black;
+    position: absolute;
+    right:  -5%;
+    bottom: 32%;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    gap: 1rem;
+    font-size: 0.8rem;
+    justify-content: st;
+    align-items: center;
+    justify-content: center;
+    background-color: #49556b;
+    z-index: 2;
+    img{
+        width: 15px;
+    }
+}
+
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1vh;
+    width: 100%;
+}
+
+.aside-img {
+    width: 40%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.icon{
+    width: 40%;
+}
+
+.inactive{
+    display: none;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #49556b;
+    position: absolute;
+    bottom: -20%; 
+    right: 40%; 
+}
