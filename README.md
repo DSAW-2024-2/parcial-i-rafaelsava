@@ -3,6 +3,8 @@
 ![Vista previa del diseño para el reto del componente de vista previa de artículo](./design/desktop-preview.jpg)
 ![Vista previa del diseño para el reto del componente de vista previa de artículo](./design/desktop-active-state.jpg)
 
+
+Link: https://dsaw-2024-2.github.io/parcial-i-rafaelsava/
 Este proyecto es un reto de desarrollo frontend donde deberás crear un componente de vista previa de artículo, utilizando HTML, CSS y un poco de JavaScript para la funcionalidad de compartir en redes sociales.
 
 **Nota:** Para este ejercicio es necesario tener un conocimiento básico de HTML, CSS y JavaScript.
